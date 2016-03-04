@@ -14,7 +14,7 @@
 
 <rfc category="std" docName="draft-ietf-rtcweb-jsep-latest" ipr="trust200902">
   <front>
-    <title abbrev="JSEP">Javascript Session Establishment Protocol</title>
+    <title abbrev="JSEP">Javascript Session Establishment Protocol: SHOULD NOT APPEAR IN GH-PAGES</title>
 
     <author fullname="Justin Uberti" initials="J." surname="Uberti">
       <organization>Google</organization>
