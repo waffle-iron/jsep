@@ -1,6 +1,6 @@
 include lib/main.mk
 
-PUSH_GHPAGES_BRANCHES = false
+PUSH_GHPAGES_BRANCHES := false
 
 lib/main.mk:
 ifneq (,$(shell git submodule status lib 2>/dev/null))
