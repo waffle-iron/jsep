@@ -1720,7 +1720,7 @@ candidate:1 1 UDP 1694498815 192.0.2.33 10000 typ host
             <xref target="RFC4568"></xref> MUST NOT be implemented to
             signal SDES SRTP keying information.</t>
 
-            <t>The
+            <t>
             <xref target="RFC5888"></xref> grouping framework MUST be
             implemented for signaling grouping information, and MUST be
             used to identify m= lines via the a=mid attribute.</t>
@@ -1768,11 +1768,12 @@ candidate:1 1 UDP 1694498815 192.0.2.33 10000 typ host
             the media bandwidth, RTCP fraction allocated to the senders
             and setting maximum media bit-rate boundaries.</t>
 
+            <t>
+            <xref target="RFC4566"></xref>, Section 5.13, JSEP 
+            implementations MUST ignore unknown attribute (a=) lines.</t>
+
           </list></t>
 
-          <t>As required by
-          <xref target="RFC4566"></xref>, Section 5.13, JSEP
-          implementations MUST ignore unknown attribute (a=) lines.</t>
         </section>
         <section title="Usage Requirements"
         anchor="sec.usage-requirements">
@@ -1781,7 +1782,7 @@ candidate:1 1 UDP 1694498815 192.0.2.33 10000 typ host
           local and remote, MUST indicate support for the following
           specifications. If any of these are absent, this omission
           MUST be treated as an error.
-          <list style="format R-%d">
+          <list style="format U-%d">
 
             <t>ICE, as specified in
             <xref target="RFC5245"></xref>, MUST be used. Note that the
